@@ -1,1 +1,424 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Aman Desai | Portfolio</title><meta name="title" content="Aman Desai | Portfolio"><meta property="og:type" content="website"><meta property="og:url" content="https://amandesai59.js.org/"><meta property="og:title" content="Aman Desai | Portfolio"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://amandesai59.js.org/"><meta property="twitter:title" content="Aman Desai | Portfolio"><meta name="msapplication-TileColor" content="#603cba"><meta name="theme-color" content="#6c63ff"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v8=qAJ44G5Bm7"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v8=qAJ44G5Bm7"><link rel="mask-icon" href="/safari-pinned-tab.svg?v8=qAJ44G5Bm7" color="#885bd5"><link rel="shortcut icon" href="/favicon.ico?v8=qAJ44G5Bm7"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v8=qAJ44G5Bm7"><link rel="manifest" href="/manifest.json"/><link rel="preload" href="/static/media/Montserrat-Regular.ee653992.ttf" as="font" type="font/woff" crossorigin><link rel="preload" href="/static/media/Agustina.21f233e1.woff" as="font" type="font/woff" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=UA-135618960-2"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-135618960-2")</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css"><script defer="defer" src="/static/js/main.9bfc866f.js"></script><link href="/static/css/main.3014fd9b.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aman Desai — Software Engineer</title>
+
+  <link rel="shortcut icon" href="./assets/images/avatar-5.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div id="splash" aria-label="Loading portfolio" role="dialog" aria-modal="true">
+    <div class="splash-bg"></div>
+
+    <div class="splash-stage">
+      <ion-icon name="folder-open-outline" class="splash-folder" aria-hidden="true"></ion-icon>
+
+      <div class="splash-file" aria-hidden="true">
+        <div class="file-tab"></div>
+        <div class="file-body"></div>
+        <div class="file-accent"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-5.png" alt="Aman Desai" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Aman Desai">Aman Desai</h1>
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:amandesai59@gmail.com" class="contact-link">amandesai59@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+19344519461" class="contact-link">+1 (934) 451-9461</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Washington DC, USA</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item"><a href="https://www.linkedin.com/in/desaiaman/" class="social-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li class="social-item"><a href="https://github.com/amandesai59" class="social-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+        </ul>
+
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Projects</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header><h2 class="h2 article-title">About me</h2></header>
+        <section class="about-text">
+          <p>
+            I'm a software engineer who likes turning ambiguity into dependable products. Full-stack by habit and product-minded by choice, I shape data and APIs, build interfaces that feel effortless, and carry work to production with thoughtful testing, automation, and observability. I use AI where it earns its keep-features that shorten the path to answers while keeping people in control. Lately I've focused on standardizing how we ship, improving runtime reliability, and delivering small touches that make software feel trustworthy.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Software Engineering" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Engineering</h4>
+                <p class="service-item-text">Building scalable and reliable applications with clean architecture, testing, and CI/CD.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="hardware-chip-outline" style="font-size:40px;color:#facc15;"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & Automation</h4>
+                <p class="service-item-text">Integrating GenAI features like retrieval-based assistants and tools that speed up troubleshooting.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="cloud-outline" style="font-size:40px;color:#facc15;"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud & DevOps</h4>
+                <p class="service-item-text">Containerization with Docker/Kubernetes, and smooth deployments.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Product Focus" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Product Focus</h4>
+                <p class="service-item-text">Designing features that make software trustworthy, user-friendly, and impactful.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="resume" data-page="resume">
+        <header><h2 class="h2 article-title">Resume</h2></header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Development Engineer — Micron Technology</h4>
+              <span>Jan 2025 - Present</span>
+              <p class="timeline-text">Containerized automation applications with Docker and Kubernetes, streamlined deployments with CI/CD pipelines, and improved incident resolution efficiency in 24/7 on-call operations.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer Intern — Micron Technology</h4>
+              <span>Jun 2024 - Aug 2024</span>
+              <p class="timeline-text">Automated anomaly root-cause analysis across global sites with C# REST APIs, SQL Server, and Angular dashboards, reducing response time. Built log collection pipelines across 100+ servers to enhance monitoring in Splunk.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer Intern — Quicko</h4>
+              <span>Jan 2023 - Jun 2023</span>
+              <p class="timeline-text">Built authentication and account services for 1.5M+ users with Spring Boot and Node.js on AWS. Developed SEO-optimized tax tools that tripled engagement to 1M+ daily clicks.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cloud Developer — Seatizen</h4>
+              <span>Mar 2021 - Dec 2021</span>
+              <p class="timeline-text">Designed a Firestore NoSQL database and cloud functions for a passenger counting system syncing 40+ IoT devices with a Kotlin Android app, improving reliability and data flow.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="school-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Stony Brook University — MS Computer Science</h4>
+              <span>Aug 2023 - Dec 2024</span>
+              <p class="timeline-text">Coursework: Algorithms, Database Systems, Recent Advances in AI. GPA: 3.8/4.0</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Pandit Deendayal Energy University — BE/BTech Computer Science</h4>
+              <span>Aug 2019 - May 2023</span>
+              <p class="timeline-text">Coursework: Operating Systems, System Design, Software Engineering. GPA: 9.68/10</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill skills-modern">
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <div class="skills-grid">
+
+            <div class="skill-card content-card">
+              <div class="skill-card-header">
+                <span class="icon-box"><ion-icon name="server-outline"></ion-icon></span>
+                <h5 class="h5">Backend</h5>
+              </div>
+              <ul class="skill-tags">
+                <li class="skill-tag">Python</li>
+                <li class="skill-tag">Java</li>
+                <li class="skill-tag">Node.js</li>
+                <li class="skill-tag">Spring Boot</li>
+                <li class="skill-tag">REST APIs</li>
+              </ul>
+            </div>
+
+            <div class="skill-card content-card">
+              <div class="skill-card-header">
+                <span class="icon-box"><ion-icon name="browsers-outline"></ion-icon></span>
+                <h5 class="h5">Frontend</h5>
+              </div>
+              <ul class="skill-tags">
+                <li class="skill-tag">React</li>
+                <li class="skill-tag">Angular</li>
+                <li class="skill-tag">TypeScript</li>
+                <li class="skill-tag">HTML</li>
+                <li class="skill-tag">CSS</li>
+              </ul>
+            </div>
+
+            <div class="skill-card content-card">
+              <div class="skill-card-header">
+                <span class="icon-box"><ion-icon name="cloud-outline"></ion-icon></span>
+                <h5 class="h5">Cloud & DevOps</h5>
+              </div>
+              <ul class="skill-tags">
+                <li class="skill-tag">Docker</li>
+                <li class="skill-tag">Kubernetes</li>
+                <li class="skill-tag">OpenShift</li>
+                <li class="skill-tag">AWS</li>
+                <li class="skill-tag">Azure</li>
+                <li class="skill-tag">GCP</li>
+                <li class="skill-tag">CI/CD</li>
+              </ul>
+            </div>
+
+            <div class="skill-card content-card">
+              <div class="skill-card-header">
+                <span class="icon-box"><ion-icon name="git-branch-outline"></ion-icon></span>
+                <h5 class="h5">Databases</h5>
+              </div>
+              <ul class="skill-tags">
+                <li class="skill-tag">MySQL</li>
+                <li class="skill-tag">PostgreSQL</li>
+                <li class="skill-tag">MongoDB</li>
+                <li class="skill-tag">Firestore</li>
+                <li class="skill-tag">Oracle</li>
+                <li class="skill-tag">SQL Server</li>
+              </ul>
+            </div>
+
+            <div class="skill-card content-card">
+              <div class="skill-card-header">
+                <span class="icon-box"><ion-icon name="sparkles-outline"></ion-icon></span>
+                <h5 class="h5">AI & Automation</h5>
+              </div>
+              <ul class="skill-tags">
+                <li class="skill-tag">LLMs</li>
+                <li class="skill-tag">RAG</li>
+                <li class="skill-tag">LangChain</li>
+                <li class="skill-tag">PyTorch</li>
+                <li class="skill-tag">scikit-learn</li>
+              </ul>
+            </div>
+
+            <div class="skill-card content-card">
+              <div class="skill-card-header">
+                <span class="icon-box"><ion-icon name="settings-outline"></ion-icon></span>
+                <h5 class="h5">Tools & Others</h5>
+              </div>
+              <ul class="skill-tags">
+                <li class="skill-tag">Git</li>
+                <li class="skill-tag">Linux</li>
+                <li class="skill-tag">Agile</li>
+                <li class="skill-tag">System Design</li>
+                <li class="skill-tag">Testing</li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+
+      </article>
+
+      <article class="projects" data-page="projects">
+        <header><h2 class="h2 article-title">Projects</h2></header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>AI/ML</button></li>
+            <li class="filter-item"><button data-filter-btn>AR/VR</button></li>
+            <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+            <li class="filter-item"><button data-filter-btn>Cloud/Systems</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>AI/ML</button></li>
+              <li class="select-item"><button data-select-item>AR/VR</button></li>
+              <li class="select-item"><button data-select-item>Web Development</button></li>
+              <li class="select-item"><button data-select-item>Cloud/Systems</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="ai/ml, ar/vr">
+              <a href="#">
+                <figure class="project-img">
+                  <div style="background:linear-gradient(135deg,#facc15,#f97316)">EyeCanDo-VR</div>
+                </figure>
+                <h3 class="project-title">EyeCanDo-VR</h3>
+                <p class="project-category">AR/VR • AI/ML</p>
+                <p class="project-description">VR accessibility app (Unity + C#) enabling ALS patients to use gaze-based controls for browsing, typing, and text-to-speech.</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai/ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div style="background:linear-gradient(135deg,#4ade80,#16a34a)">CoverWeaver</div>
+                </figure>
+                <h3 class="project-title">CoverWeaver</h3>
+                <p class="project-category">AI/ML</p>
+                <p class="project-description">Personalized cover letter generator using Apify scraping, ChromaDB embeddings, and LangChain-powered LLM prompts.</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div style="background:linear-gradient(135deg,#60a5fa,#2563eb)">Reverie Blog Platform</div>
+                </figure>
+                <h3 class="project-title">Reverie Blog Platform</h3>
+                <p class="project-category">Web Development</p>
+                <p class="project-description">Full-stack blogging platform with Node.js, Angular, and MongoDB; supports trending blogs with caching and indexed queries.</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="cloud/systems">
+              <a href="#">
+                <figure class="project-img">
+                  <div style="background:linear-gradient(135deg,#a855f7,#6b21a8)">Cloud Automation POC</div>
+                </figure>
+                <h3 class="project-title">Cloud Automation POC</h3>
+                <p class="project-category">Cloud/Systems</p>
+                <p class="project-description">Proof-of-concept automation using Docker, Kubernetes, and CI/CD to deploy manufacturing services across multiple sites.</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contact">
+        <header><h2 class="h2 article-title">Contact</h2></header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198740.30616115!2d-77.1670146665895!3d38.89385915524238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20DC!5e0!3m2!1sen!2sus!4v1757096800398!5m2!1sen!2sus"
+              width="600" height="450" style="border:0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="https://formspree.io/f/xzzakljy" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <input type="hidden" name="_subject" value="New message from your portfolio site" />
+            <input type="text" name="_honeypot" style="display:none" tabindex="-1" autocomplete="off" />
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+            <p class="form-status" aria-live="polite" style="margin-top:10px;"></p>
+          </form>
+
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
